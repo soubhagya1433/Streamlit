@@ -10,7 +10,6 @@ def open_excel_with_xlwings(file_path):
     return app, wb
 
 st.title("ATA XlFile Roundtrip")
-st.sidebar.image("C:/Anaconda/DE Project/ATA phase 1/pages/ATAlogo.png", use_column_width=True)
 uploaded_file = st.file_uploader("Choose an Excel file to view and Edit in Excel UI", type="xlsx")
 
 if uploaded_file is not None:
